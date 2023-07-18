@@ -1,11 +1,79 @@
 /* Work Sans font from google. */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+/* Shared CSS Styles */
+
+* {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.btn-primary {
+    width: 11.25rem;
+    height: 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 header {
-    background-color: bisque;
-    padding:50px 240px;
+    background-color: rgba(255, 144, 14, 0.10);
+    ;
+    padding: 3rem 10rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 2.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner h1 {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 4rem;
+}
+
+.banner p {
+    color: #727272;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.banner img {
+    width: auto;
+    height: 38rem;
+    padding-top: 3rem;
 }
