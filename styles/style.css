@@ -136,11 +136,15 @@ nav ul li a {
 
 /*Som Facts Part  */
 
+.facts{
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+}
+
 .facts-title {
     color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
-    margin-left: 15rem;
     margin-bottom: 1.5rem;
 }
 
@@ -148,8 +152,7 @@ nav ul li a {
     color: #727272;
     font-size: 1rem;
     line-height: 1.5rem;
-    margin-left: 15rem;
-    margin-bottom: 5rem;
+
 }
 
 .all-facts {
@@ -160,11 +163,12 @@ nav ul li a {
 }
 
 .fact-card {
+    width: 100%;
+    height: auto;
     border: 1px solid #FF900E;
     border-radius: 0.5rem;
     text-align: center;
-    align-items: center;
-    padding: 2.5rem 1.5rem;
+    padding: 5rem 1.5rem;
 }
 
 .fact-stats {
@@ -220,7 +224,7 @@ nav ul li a {
         padding-top: 2rem;
     }
 
-    /* Making responsive Team features Part */
+    /* Making responsive Team features Part-1*/
 
     .container-1 {
         flex-direction: column;
@@ -230,6 +234,25 @@ nav ul li a {
     .team-images {
         grid-template-columns: 1fr;
     }
+
+    /* Making responsive Team features Part-2*/
+
+
+
+    /* Making responsive Some Facts Part*/
+    
+    .facts{
+        display: flex;
+        flex-direction: column;
+        margin-left:1.5rem ;
+    }
+
+    .all-facts{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }
 
 @media screen and (min-width:576.1px) and (max-width:960px) {
