@@ -82,7 +82,7 @@ nav ul li a {
     padding-top: 3rem;
 }
 
-/* Team Features Part */
+/* Team Features Part-1 */
 
 .container-1 {
     display: flex;
@@ -90,6 +90,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     padding: 0 10rem;
+    margin-bottom: 5.5rem;
 }
 
 .team-images {
@@ -121,10 +122,61 @@ nav ul li a {
 }
 
 .team-features p {
-    color:#727272;
+    color: #727272;
     font-size: 1rem;
     line-height: 1.5rem;
     padding-bottom: 2rem;
+}
+
+/* Team Features Part-2 */
+
+
+
+
+
+/*Som Facts Part  */
+
+.facts-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-left: 15rem;
+    margin-bottom: 1.5rem;
+}
+
+.facts-description {
+    color: #727272;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+}
+
+.all-facts {
+    display: flex;
+    gap: 3rem;
+    padding: 0 6rem;
+    margin-bottom: 3rem;
+}
+
+.fact-card {
+    border: 1px solid #FF900E;
+    border-radius: 0.5rem;
+    text-align: center;
+    align-items: center;
+    padding: 2.5rem 1.5rem;
+}
+
+.fact-stats {
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.fact-card-details {
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 
@@ -170,11 +222,12 @@ nav ul li a {
 
     /* Making responsive Team features Part */
 
-    .container-1{
+    .container-1 {
         flex-direction: column;
         padding: 2rem;
     }
-    .team-images{
+
+    .team-images {
         grid-template-columns: 1fr;
     }
 }
