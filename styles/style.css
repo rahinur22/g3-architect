@@ -21,9 +21,12 @@
     cursor: pointer;
 }
 
+/* Header Part */
+
 header {
     background-color: rgba(255, 144, 14, 0.10);
     padding: 3rem 10rem;
+    margin-bottom: 5rem;
 }
 
 nav {
@@ -79,6 +82,53 @@ nav ul li a {
     padding-top: 3rem;
 }
 
+/* Team Features Part */
+
+.container-1 {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.team-features h1 {
+    padding-bottom: 1.5rem;
+}
+
+.team-features h1 .q-list {
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.team-features h1 .of-our {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.team-features h1 .features {
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.team-features p {
+    color:#727272;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+
+
 /* Responsive Layout */
 
 /* Mobile Devices */
@@ -111,17 +161,17 @@ nav ul li a {
         margin: 0rem 0rem;
     }
 
-    .banner img{
+    .banner img {
         padding-top: 2rem;
     }
 }
 
-@media screen and (min-width:576.1px) and (max-width:960px){
-    header{
+@media screen and (min-width:576.1px) and (max-width:960px) {
+    header {
         padding: 1rem;
     }
 
-    nav{
+    nav {
         flex-direction: column;
         gap: 1rem;
     }
@@ -143,10 +193,10 @@ nav ul li a {
         font-size: 1rem;
         margin: 0rem 0rem;
     }
-    
-    .banner img{
-        width:100% ;
-        height:25rem;
+
+    .banner img {
+        width: 100%;
+        height: 25rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
